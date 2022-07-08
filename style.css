@@ -1,0 +1,67 @@
+/* setting flex containers */
+
+/* #root{
+    height: 100vh;
+}
+.react-container{
+    height:100vh
+
+} */
+
+/* Creating responsive design */
+
+@media screen and (max-width:768px) {         /* media type : screen , media feature: max-width*/
+    .row-3 {
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width:320px) {     
+    .row-1 {
+        flex-direction: column;
+    }
+    
+}
+
+/* creating flex containers & setting styles */
+.wrapper{
+    display : flex;
+    height: 100vh;
+    flex-direction: column;     /* stacks elements vertically*/
+    color:black;
+    text-align: center; /* center align text horizontally*/
+    
+}
+.row-1, .row-2, .row-3{
+    display:flex;
+    height: 100%;
+    
+}
+
+/* seeting boxes props */
+.box-11,.box-12{
+    background-color: #ffc83e;    
+    justify-content: space-around;
+    flex: auto;     /* fills entire width of flex container*/
+    margin: 5pt;
+    align-items: center;
+    border-radius: 8pt; /* to get rounded borders. To get circle from square box, give 50% as border radius*/
+   /* padding: 10pt;  */    /* vertical align text*/
+}
+
+.box-2{
+    background-color: #ff3d6a;    
+    flex: auto;
+    margin: 5pt;
+    border-radius: 8pt; 
+    /* padding: 50pt; */
+}
+
+.box-31, .box-32, .box-33 {
+    background-color: #6e7dff;
+    flex: auto;
+    margin: 5pt;
+    border-radius: 8pt; 
+    /* padding: 50pt; */
+}
