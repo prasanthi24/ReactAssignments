@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.Wrapper {
+  background-color: #525660;
+  min-height: 100vh;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width : 33.3%
+}
+
+.id-card{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  /* justify-content: left; */
+  background-color: white;
+  width: 32vh;
+  /* min-height: %; */
+  font-size: calc(10px + 2vmin);
+  color: black;
+  border : 2px solid #4a85e8;
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  color: rgba(128, 128, 128, 0.884);
+  font-size:small;
+  /* font-weight:700; */
+  
+}
+
+.title-value {
+  padding: 0;
+  margin: 0.1em 0 1em 0;   /* margin bottom => margin block top end ???*/
+ /* margin-bottom: 1em; */
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.emp-img-cntnr{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.emp-img-cntnr div{
+display:inline-flex;
+justify-content: center;  /* horizontally align*/
+align-items: center;      /* vertically align*/
+/* border: 3px solid #4ae0e8; */
+height: 18vh;
+}
+#emp-photo{
+/* justify-content: center; */
+/* background-color: black; */
+/* border: 2px solid #c6c60bda; */
+height: 15vh;
+width: auto;
+
+}
+
+#emp-name {
+  padding: 0;
+  margin: 0 0 0.5em 0;
+  color : #08a4fa;
+  font-size: 2em ;
+  font-weight: bold;    /*gets bolder text */
+  /* align-items: right; */
+  justify-content: left;
+  /* background-color: rgb(25, 126, 129); */
+
+}
+
+/* autonatically mrgins comin in o tag
+image not getting displayed */
