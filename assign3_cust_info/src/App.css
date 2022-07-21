@@ -1,0 +1,105 @@
+.App-Warpper {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* font-size: calc(10px + 2vmin); */
+  color: black;
+  padding: 10px;
+  border: 20px solid rgb(45, 149, 45);
+  
+ 
+}
+
+.App-Wrap-Content{
+margin: 100px;
+}
+
+/* ---NAME CLASS COMPONENT---- */
+
+.Name-Warpper {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  color : black;
+  border : 2px solid grey;
+  padding: 10px;
+  margin: 20px;
+} 
+.Name-Title-Wrapper{
+  margin-left: 300px;
+  /* border: 20px solid green; */
+
+}
+
+/* .Name-Title-Wrapper{
+  margin: 0 20px 0 600px;
+
+} */
+.Name-Warpper div:last-child{
+  margin-left: auto;
+}
+
+/* -- CUSTOMER INFO COMPONENT---- */
+.Customer-Info-Wrapper{
+
+display:flex;
+border: 2px solid grey;
+padding: 30px;
+margin: 20px;
+/* margin:auto; */
+}
+label {
+  font-size: large;
+  font-weight:bold;
+}
+
+input{
+  border : none;
+  background-color: transparent;
+}
+/* --- ORDER CLASS COMPONENT --- */
+.Order-Wrapper{
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid grey;
+  padding: 20px;
+  margin: 20px;
+}
+.order-dtls{
+  font-size: medium;
+}
+.title{
+  font-size: large;
+  font-weight: bold;
+}
+
+/* .order-dtls{
+  border: 2px solid white;
+} */
+
+/* ----PRODUCT DETAILS--- */
+.Product-Warpper{
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid grey;
+  padding: 30px;
+  margin: 20px;
+}
+
+.Product-Warpper img{
+  width: 100px;
+  height: auto;
+  /* border: 2px solid yellowgreen */
+}
+
+.ProductDesc{
+  /* border: 2px solid yellowgreen; */
+  padding: 20px;
+  margin: 0 450px 0 20px;
+}
+
+
+
