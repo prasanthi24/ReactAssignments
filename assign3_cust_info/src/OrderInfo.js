@@ -13,7 +13,7 @@ class OrderInfo extends Component {
                     <p class = "title">Status</p>
                     <p>{this.props.order[0].Status}</p>
                 </div>
-                <div clsass = "order-dtls"> 
+                <div class = "order-dtls"> 
                     <p class = "title">Door</p>
                     <p>{this.props.order[0].Door}</p>
                 </div>

@@ -1,6 +1,6 @@
 .App-Warpper {
   background-color: white;
-  height: 100vh;
+  /* height: 100vh; */ /* shouldnt retrict height*?
   display: flex;
   flex-direction: column;
   /* align-items: center; */
@@ -29,7 +29,9 @@ margin: 100px;
   margin: 20px;
 } 
 .Name-Title-Wrapper{
-  margin-left: 300px;
+  text-align: center ;
+  width:100%;
+  /* margin-left: 300px; */
   /* border: 20px solid green; */
 
 }
@@ -38,9 +40,9 @@ margin: 100px;
   margin: 0 20px 0 600px;
 
 } */
-.Name-Warpper div:last-child{
+/* .Name-Warpper div:last-child{
   margin-left: auto;
-}
+} */
 
 /* -- CUSTOMER INFO COMPONENT---- */
 .Customer-Info-Wrapper{
@@ -63,13 +65,14 @@ input{
 /* --- ORDER CLASS COMPONENT --- */
 .Order-Wrapper{
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   border: 2px solid grey;
   padding: 20px;
   margin: 20px;
 }
 .order-dtls{
   font-size: medium;
+  width: 33%;   /* for 3 elements equal spaace allocated*/
 }
 .title{
   font-size: large;
@@ -89,6 +92,10 @@ input{
   margin: 20px;
 }
 
+/* .img-wrapper{
+  width:20%
+} */
+
 .Product-Warpper img{
   width: 100px;
   height: auto;
@@ -98,7 +105,8 @@ input{
 .ProductDesc{
   /* border: 2px solid yellowgreen; */
   padding: 20px;
-  margin: 0 450px 0 20px;
+  /* margin: 0 450px 0 20px; */
+  width:100%;
 }
 
 
